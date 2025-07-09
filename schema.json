@@ -1,0 +1,19 @@
+{
+    "databases": {
+      "cmr": {
+        "Employees": ["Id", "Name", "Role", "Email", "Salary","DateOfJoining","PhoneNumber","Address"]
+      },
+      "StackOverflow2010": {
+        "Comments": ["Id", "CreationDate", "PostId", "Score", "Text", "UserId"],
+        "LinkTypes": ["Id", "Type"],
+        "PostLinks": ["Id", "CreationDate", "PostId", "RelatedPostId", "LinkTypeId"],
+        "Posts": ["Id", "AcceptedAnswerId", "AnswerCount", "Body", "Tags", "Title", "ViewCount"],
+        "PostTypes": ["Id", "Type"],
+        "Users": ["Id", "AboutMe", "Age", "DisplayName", "DownVotes", "UpVotes", "WebsiteUrl", "AccountId"],
+        "Votes": ["Id", "PostId", "UserId", "BountyAmount", "VoteTypeId", "CreationDate"],
+        "VoteTypes": ["Id", "Name"],
+        "Badges": ["Id", "Name", "UserId", "Date"]
+      }
+    }
+  }
+  
